@@ -12,7 +12,7 @@ export default async () => {
   const parameters = Object.entries(query)
     .map((parameter) => parameter.join('='))
     .join('&');
-  const tokenURL = `http://newsapi.org/V2/everything?${parameters}`;
+  const tokenURL = `https://newsapi.org/V2/everything?${parameters}`;
 
   try {
     const response1 = await axios.get(tokenURL);
