@@ -43,7 +43,7 @@ const News = () => {
 const CustomCard = styled(Col)`
   .card {
     margin: 20px 0;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
     .card-title {
       margin: 0 !important;
     }
